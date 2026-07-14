@@ -72,7 +72,12 @@ button {
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
-  padding: 0 var(--spacing-6);
+  padding: 0 var(--spacing-4);
+}
+@media (min-width: 768px) {
+  .container {
+    padding: 0 var(--spacing-6);
+  }
 }
 
 .text-pink { color: var(--color-pink); }
@@ -221,15 +226,38 @@ h1, h2, h3, h4 {
 }
 
 .nav-brand img {
-  height: 64px;
+  height: 48px;
   width: auto;
-  max-width: 250px;
+  max-width: 180px;
   object-fit: contain;
   transition: transform 0.3s ease;
 }
 
+@media (min-width: 768px) {
+  .nav-brand img {
+    height: 64px;
+    max-width: 250px;
+  }
+}
+
 .nav-brand img:hover {
   transform: scale(1.02);
+}
+
+.nav-whatsapp-btn {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  flex-shrink: 0;
+}
+
+@media (min-width: 768px) {
+  .nav-whatsapp-btn {
+    padding: 0.75rem 1.5rem;
+    border-radius: var(--border-radius-pill);
+    aspect-ratio: auto;
+  }
 }
 
 /* Hero Section */

@@ -29,7 +29,7 @@ export default function App() {
           <div className="nav-brand">
             <img src="/img/logo.png" alt="Consultório Odontológico Dra Carolina Ribeiro" className="main-logo" />
           </div>
-          <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ padding: '0.75rem 1.5rem', fontSize: '1rem' }}>
+          <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="btn-primary nav-whatsapp-btn">
             <WhatsappLogo weight="fill" size={20} />
             <span className="hidden-mobile">Agendar Consulta</span>
           </a>
