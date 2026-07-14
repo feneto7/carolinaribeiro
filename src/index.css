@@ -221,21 +221,15 @@ h1, h2, h3, h4 {
 }
 
 .nav-brand img {
-  height: 48px;
+  height: 64px;
   width: auto;
+  max-width: 250px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
 }
 
-.nav-brand span {
-  font-weight: 600;
-  color: var(--color-blue);
-  font-size: 1.125rem;
-  display: none;
-}
-
-@media (min-width: 768px) {
-  .nav-brand span {
-    display: block;
-  }
+.nav-brand img:hover {
+  transform: scale(1.02);
 }
 
 /* Hero Section */
