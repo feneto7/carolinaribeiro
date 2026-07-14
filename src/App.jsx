@@ -57,11 +57,11 @@ export default function App() {
                   Tratamentos odontológicos premium em um ambiente acolhedor, projetado para o seu bem-estar e conforto.
                 </p>
                 <div className="hero-actions">
-                  <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="btn-primary">
+                  <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="btn-primary btn-full-mobile">
                     <WhatsappLogo weight="fill" size={24} />
                     Falar no WhatsApp
                   </a>
-                  <a href="#tratamentos" className="btn-secondary">
+                  <a href="#tratamentos" className="btn-secondary btn-full-mobile">
                     Conhecer Tratamentos
                   </a>
                 </div>
