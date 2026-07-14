@@ -180,8 +180,11 @@ export default function App() {
                   (11) 99999-9999
                 </li>
                 <li style={{ display: 'flex', alignItems: 'center', gap: '1rem', color: 'rgba(255,255,255,0.8)' }}>
-                  <MapPin size={24} color="var(--color-pink)" />
-                  Av. Exemplo, 1000 - Sala 10 - São Paulo, SP
+                  <MapPin size={24} color="var(--color-pink)" style={{ flexShrink: 0 }} />
+                  <span>
+                    CONEGO JOSE LOURENCO, S/N - CENTRO<br />
+                    São Felipe - BA, CEP: 44550000
+                  </span>
                 </li>
                 <li style={{ display: 'flex', alignItems: 'center', gap: '1rem', color: 'rgba(255,255,255,0.8)' }}>
                   <Clock size={24} color="var(--color-pink)" />
